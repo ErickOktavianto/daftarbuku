@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/hd.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    width: 500px;
+    background: black;
+    opacity: .8;
+    margin: 2% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0,0);
+}
+.input-box{
+    margin: 10px auto;
+    width: 80%;
+    border-bottom: 1px solid ;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.input-img input,.img{
+    margin-left: 50px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.input-button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.img-button{
+    margin: 10px 30%;
+    display: block;
+    border-bottom: white;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.edit-btn{
+    margin-left: 50px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding:15px 5px ;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.img-gambar{
+    border: 2px solid blueviolet;
+    margin: 10px 30%;
+
+}
+
+
+span.close{
+    font-size: 26px;
+    width: 30px;
+    opacity: .8;
+    padding: 5px 5px;
+    background-color: red;
+    border-radius: 100%;
+    border: 2px solid white;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0,0);
+    position: absolute;
+    top: 10px;
+    left: 980px;
+}
+.close a{
+    text-decoration: none;
+    color: white;
+}

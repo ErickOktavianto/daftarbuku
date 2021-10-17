@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/hd.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.form-box{
+    width: 500px;
+    background: black;
+    opacity: .8;
+    margin: 5% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0,0);
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+p{
+    text-align: center;
+}
+.check-box{
+    margin: 20px auto;
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+.input-box{
+    margin: 28px auto;
+    width: 80%;
+    border-bottom: 1px solid ;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+::placeholder{
+    color:white;
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display:none;
+}
+.login-btn{
+    margin: 50px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+p{
+    text-align: ce;
+}
+
+.login-page{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width:80%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 30%;
+}
+.login-page a{
+
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
